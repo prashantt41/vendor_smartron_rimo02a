@@ -224,9 +224,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
+    vendor/smartron/rimo02a/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/smartron/rimo02a/proprietary/vendor/etc/libnfc-nxp.conf:system/vendor/etc/libnfc-nxp.conf \
     vendor/smartron/rimo02a/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/nfc_nci.nqx.default.so:system/vendor/lib64/hw/nfc_nci.nqx.default.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
